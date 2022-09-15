@@ -1,0 +1,108 @@
+/*variables*/
+/* navbar setup*/
+.navbar-collapse {
+  justify-content: space-between; }
+  .navbar-collapse .iconos-contacto-navbar {
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+    font-size: 0.9em;
+    gap: 10px; }
+    .navbar-collapse .iconos-contacto-navbar .ubicacion-empresa-header {
+      height: 32px;
+      width: 32px; }
+    .navbar-collapse .iconos-contacto-navbar .telefono-empresa-header {
+      height: 32px;
+      width: 32px; }
+
+/*body principal*/
+.seccion-principal {
+  height: 10em;
+  background-image: url(../imagenes/fondoprincipalquimica.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center; }
+  .seccion-principal .seccion-principal-titulo-principal {
+    font-size: 4em;
+    color: antiquewhite;
+    animation-duration: 2s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
+  .seccion-principal .seccion-principal-titulo-secundario {
+    color: antiquewhite;
+    animation-duration: 3s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
+  .seccion-principal .seccion-principal-imagen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-shadow: 5px 5px 10px #1f50f2; }
+
+/*seccion sub titulos*/
+.seccion-principal-subtitulo {
+  color: antiquewhite;
+  text-shadow: 5px 5px 10px #1f50f2;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%; }
+
+/*sector principal y tarjetas*/
+main .row {
+  justify-content: space-evenly;
+  gap: 20px; }
+  main .row .card {
+    box-shadow: 6px 6px 6px #8f8fff; }
+    main .row .card .card-img-top {
+      height: 12rem; }
+
+/*sector presentacion empresa*/
+.presentacion-empresa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .presentacion-empresa .presentacion-empresa-titulo {
+    color: antiquewhite;
+    text-shadow: 5px 5px 10px #1f50f2;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%; }
+  .presentacion-empresa .presentacion-empresa-foto-fabrica {
+    width: 70%;
+    height: 100%; }
+  .presentacion-empresa .presentacion-empresa-cuerpo-principal {
+    display: flex; }
+    .presentacion-empresa .presentacion-empresa-cuerpo-principal .presentacion-empresa-parrafo {
+      width: 50%;
+      margin: 3% 3% 3% 3%; }
+    .presentacion-empresa .presentacion-empresa-cuerpo-principal .presentacion-empresa-foto {
+      width: 50%;
+      margin: 3% 3% 3% 3%; }
+
+/*sector presentacion logistica */
+.presentacion-logistica .presentacion-logistica-titulo {
+  color: antiquewhite;
+  text-shadow: 5px 5px 10px #1f50f2;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%; }
