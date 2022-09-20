@@ -5,6 +5,8 @@ $sombras-titulos:  5px 5px 10px #1f50f2;
 $sombras-titulos-fondo-oscuro: 3px 3px 6px #e3e6f1;
 $colores-titulos-banner: antiquewhite;
 $sombras-objetos: 6px 6px 6px rgb(143, 143, 255);
+/*variables para pagina productos*/
+
 
 
 /* navbar setup*/
@@ -20,19 +22,16 @@ $sombras-objetos: 6px 6px 6px rgb(143, 143, 255);
                                         .telefono-empresa-header {height: 32px;
                                                                  width: 32px;}
                                          }} 
-
 /*body principal*/
-
 
 .seccion-principal{margin-top: 5%;
                 height: 10em;
-                  background-image: url(../imagenes/fondoprincipalquimica.jpg);
-                  opacity: 0.8;
-                  background-size:cover;   
-                  background-position: center center;                           
+                  background-image: url(../imagenes/glassware-blue-liquid-equipment-chemical-1474018.jpg);
+                  opacity: 0.9;
+                  background-size:auto;   
+                  background-position: center;                           
                    display: flex;
                    align-items: center;
-                              
                   .seccion-principal-titulo-principal{font-size: 4em;
                                                       color:$colores-titulos-banner;
                                                        animation-duration: 2s;
@@ -51,7 +50,6 @@ $sombras-objetos: 6px 6px 6px rgb(143, 143, 255);
                                                            width: 100%;                                                           
                                                             align-items: center;
                                                             text-shadow: $sombras-titulos;
-                                                          
                                 }}
 /*seccion sub titulos*/ 
 .seccion-principal-subtitulo{ color: $colores-titulos-banner;
@@ -61,90 +59,77 @@ $sombras-objetos: 6px 6px 6px rgb(143, 143, 255);
                             display: flex;
                             justify-content: space-around;
                             margin-top: 1.5%;
-                            margin-bottom: 1.5%;
-                        }
+                            margin-bottom: 1.5%;    }
 /*sector principal y tarjetas*/
 
-main{ 
-
-     .row { justify-content: space-evenly;
+main{ .row { justify-content: space-evenly;
             gap: 20px;
             .card{  transition: ease-in .4s; 
                  box-shadow: $sombras-objetos;}
-                
-               .card:hover {
-                    transform: scale(1.1);
-                }
-                
-                
-                
-                
-        .card-img-top{ height:12rem;}}}
+            .card:hover {
+                    transform: scale(1.1); }
+           .card-img-top{ height:12rem;}}}
     
-    
-
 /*sector presentacion empresa*/
 
 .presentacion-empresa{display:flex;
                     flex-direction: row;
                     flex-wrap: wrap;
-    .presentacion-empresa-titulo{color: $colores-titulos-banner;
-        text-shadow: $sombras-titulos;
-        margin-left:auto;
-        margin-right:auto;
-        display: flex;
-        justify-content: space-around;
-        margin-top: 3%;}
-        .presentacion-empresa-foto-fabrica{ width: 70%;
-        height: 100%;}
-        .presentacion-empresa-cuerpo-principal{ display:flex;
-                                             .presentacion-empresa-parrafo { width: 50%;
-                                                                              margin: 3% 3% 3% 3%;}
-                                             .presentacion-empresa-foto{ width: 50%;
-                                                                        margin: 3% 3% 3% 3%;}}
+                 .presentacion-empresa-titulo{color: $colores-titulos-banner;
+                                                text-shadow: $sombras-titulos;
+                                                margin-left:auto;
+                                                margin-right:auto;
+                                                display: flex;
+                                                justify-content: space-around;
+                                                margin-top: 3%;}
+                .presentacion-empresa-foto-fabrica{ width: 70%;
+                                                  height: 100%;}
+                 .presentacion-empresa-cuerpo-principal{ display:flex;
+                                                        .presentacion-empresa-parrafo { width: 50%;
+                                                                                        margin: 3% 3% 3% 3%;}
+                                                        .presentacion-empresa-foto{ width: 50%;
+                                                                                      margin: 3% 3% 3% 3%;}}
 }
     
 
 /*sector presentacion logistica */
 
 .presentacion-logistica{
-    .presentacion-logistica-titulo{color: $colores-titulos-banner;
-                                    text-shadow: $sombras-titulos;
-                                    display: flex;
-                                    justify-content: space-around;
-                                    margin-top: 3%;}
-     .presentacion-logistica-fotos{ display:flex;
-                                     justify-content: space-evenly;
-                                     flex-wrap: wrap;
-                                    .presentacion-logistica-foto-vehiculo{ 
+                        .presentacion-logistica-titulo{color: $colores-titulos-banner;
+                                                        text-shadow: $sombras-titulos;
+                                                        display: flex;
+                                                        justify-content: space-around;
+                                                        margin-top: 3%;}
+                        .presentacion-logistica-fotos{ display:flex;
+                                                        justify-content: space-evenly;
+                                                        flex-wrap: wrap;
+                                                                      .presentacion-logistica-foto-vehiculo{ 
                                                                         .foto-camion{ height: 14em;}
-                                                                        .foto-camioneta{height: 14em;}}
-                                       }
-        .presentacion-logistica-parrafo{margin-left: 10%;
-                                        margin-right:10%;
-                                        margin-top: 3%; } 
-        }
+                                                                        .foto-camioneta{height: 14em;}}  }
+                         .presentacion-logistica-parrafo{margin-left: 10%;
+                                                        margin-right:10%;
+                                                        margin-top: 3%; } 
+                        }
 
 /*sector contacto*/
 .contacto{ background-color: rgb(153, 160, 183);     
 .contacto-titulo{ display:flex;
-                 justify-content: center;
-                 color:$colores-titulos-banner;
-                text-shadow: $sombras-titulos;
-            margin-top: 3%;
-            }
+                justify-content: center;
+                color:$colores-titulos-banner;
+                 text-shadow: $sombras-titulos;
+                margin-top: 3%; }
 .contacto-contenedor{ display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 3%;
-                    .contacto-formulario{width: 40rem;
-                                       display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        flex-wrap: wrap;
+                        margin-top: 3%;
+                        padding-bottom: 3%;
+                                        .contacto-formulario{width: 40rem;
+                                                          display: flex;
                                         fieldset{ .form-group{margin-top:10px;}}}
-                    .contacto-mapa{display: flex;
-                                    margin-top:10px; }
-                }}  
-
+                                          .contacto-mapa{display: flex;
+                                                          margin-top:10px; } }
+               }  
 
 /* logo whatsapp con animacion de rebote sacado de web*/
 .logo-whatsapp{ height: 5rem;
@@ -259,22 +244,20 @@ main{
                                   animation-timing-function: ease-out;
                         }
                       }
-                      
-            
 }
 
 /*footer */
-footer{ background-color: rgb(27, 25, 25);
+footer{ padding-top:3%;
+        background-color: rgb(27, 25, 25);
        
-        .col-3{display:flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                 .titulo-footer{color:blue;
+        .col-3{ padding-left:2%;
+                 .titulo-footer-principal{color:blue;
                                 text-shadow: $sombras-titulos-fondo-oscuro;
-                                font-size:xx-large;}}
-                
-       
+                                font-size:xx-large;
+                                font-weight: 600;}
+                .titulo-footer-secundario{color:blue;
+                                text-shadow: $sombras-titulos-fondo-oscuro;
+                                font-size: small;}}
         .col-4{display: flex;
                 flex-direction: column;
                 justify-content: space-around;
@@ -294,6 +277,113 @@ footer{ background-color: rgb(27, 25, 25);
 
         .row{.creacion{color:rgb(155, 155, 155)}}
 }
+
+
+/* pagina productos */
+main{.titulo-productos-ferreteria-pintureria{margin-top:3%;
+                                                display:flex;
+                                                justify-content:space-around;
+                                        background-color: #d6def7;
+                                       }
+        .titulo-productos-ferreteria-aguarras{margin-top:3%;
+                                                display:flex;
+                                                justify-content:space-around;
+                                        background-color: #d6def7}
+        .titulo-productos-ferreteria-diluyentes{margin-top:3%;
+                                                display:flex;
+                                                justify-content:space-around;
+                                                background-color: #d6def7}}
+.productos-ferreteria-pintureria-thinner{margin-top:4%;
+                                        display: flex;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        justify-content: space-around;
+                                        gap:20px;
+                                     .item-producto{    width: 280px;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        align-items: center;
+                                              
+                                               
+                                                .foto-tambores{height: 100px;
+                                                              width: 100px;}
+                                                
+                                                .parrafo-producto{border: solid 1px;
+                                                                    border-radius: 10px 10px 10px 10px;
+                                                                 background-color: #e0e1e4;}
+                                                .parrafo-producto:hover {background-color: #c3cff7;
+                                                                        border-radius: 10px 10px 10px 10px;
+                                                                        box-shadow: $sombras-objetos;
+                                                                        transform: scale(1.1);}
+        }}
+
+ .productos-ferreteria-pintureria-aguarras{margin-top:4%;
+                                        display: flex;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        justify-content: space-around;
+                                        .item-producto{ width: 280px;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        align-items: center;
+                                                        .foto-tambores{height: 100px;
+                                                                          width: 100px;}
+                                                        .parrafo-producto{border: solid 1px;
+                                                                         border-radius: 10px 10px 10px 10px;
+                                                                         background-color: #e0e1e4;}
+                                                        .parrafo-producto:hover {background-color: #c3cff7;
+                                                                                border-radius: 10px 10px 10px 10px;
+                                                                                box-shadow: $sombras-objetos;
+                                                                                transform: scale(1.1);}
+                }}
+                
+.productos-ferreteria-pintureria-diluyentes{margin-top:4%;
+                                                display: flex;
+                                                flex-direction: row;
+                                                flex-wrap: wrap;
+                                                justify-content: space-around;
+                                                gap:20px;
+                                                .item-producto{ width: 280px;
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                align-items: center;
+                                                                .foto-tambores{height: 100px;
+                                                                               width: 100px;}
+                                                                .parrafo-producto{border: solid 1px;
+                                                                                  border-radius: 10px 10px 10px 10px;
+                                                                                  background-color: #e0e1e4;}
+                                                                .parrafo-producto:hover {background-color: #c3cff7;
+                                                                                        border-radius: 10px 10px 10px 10px;
+                                                                                        box-shadow: $sombras-objetos;
+                                                                                        transform: scale(1.1);}
+                        }}
+
+       
+      /*medias query*/      
+
+
+
+
+@media screen and (max-width: 919px){
+       
+
+        .direccion-mail-header{display:none;  }
+        .direccion-mail-footer{display:none;}
+                                                                 }
+ @media screen and (max-width: 720px){
+       
+
+        .direccion-mail-header{display:none;  }
+        .direccion-mail-footer{display:none;}
+
+       .presentacion-empresa-cuerpo-principal{display:flex;
+                                        flex-direction: column-reverse;
+                                        align-items:center; }
+        .col-5{gap: 10px;}
+
+                                                                 } 
+
+
 
 
 
